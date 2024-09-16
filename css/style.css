@@ -45,6 +45,7 @@ img {
     align-items: center;
     height: 150px;
 }
+
 .navlinks ul {
     display: flex;
 }
@@ -119,6 +120,11 @@ img {
     background-color: white;
     margin-top: 5px;
     border-radius: 10px;
+    transition: var(--transition-del);
+}
+.bannerWrapperLeft__btn:hover {
+    scale: 1.2;
+    box-shadow: 0 25px 25px 5px rgba(0, 0, 0, 0.151);
 }
 .bannerWrapperLeft__btn a {
     color: var(--accent-blue);
